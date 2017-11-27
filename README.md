@@ -1,6 +1,6 @@
 # maven-project
 
-This is my **Maven project from MuleSoft's advanced development class
+This is my **Maven project** from MuleSoft's advanced development class
 
 ## How to run the project
 
