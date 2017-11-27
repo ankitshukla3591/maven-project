@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd"
 >
 	<http:listener-config name="HTTP_Listener_Configuration"
-		host="0.0.0.0" port="${my.http.port}" basePath="test"
+		host="0.0.0.0" port="${http.port}" basePath="test"
 		doc:name="HTTP Listener Configuration" />
 	<spring:beans>
 		<spring:bean id="Bean" name="DerbyDataSource"
